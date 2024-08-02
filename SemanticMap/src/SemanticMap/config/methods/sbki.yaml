@@ -1,0 +1,3 @@
+mapping_strategy: bki
+mapping_media: onehot
+uncertainty_strategy: none

@@ -1,0 +1,5 @@
+mapping_strategy: bki
+mapping_media: prob
+uncertainty_strategy: adaptive
+ds_multiplier: 10
+# unc_thres: dataset dependent

@@ -1,0 +1,13 @@
+<launch>
+    <arg name="pkg" default="$(find evsemmap)" />
+    <node pkg="evsemmap" type="pcd_conversion" name="pcd_conversion" output="screen">        
+        <param name="convert_mode_to_my_extension" value="true" />
+
+        <param name="scan_start" value="1" />   
+        <param name="scan_num" value="68" />   
+
+        <param name="out_path" value="/workspace/convertedRellis/rellisv3_edl_train-4/05_pVec_pcd/00004/" />
+        <param name="dir" value="/workspace/convertedRellis/rellisv3_edl_train-4/03_nby3pK_npy/00004/" />
+
+    </node>
+</launch>

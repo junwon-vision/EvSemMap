@@ -1,0 +1,30 @@
+########## Universal
+scan_stride: 1
+resolution: 0.2
+ds_resolution: 0.01
+visualization_pose_target: rellis
+visualization_pose_dir: /workspace/rellis_04_pose/                                              # SERVER
+visualization_saving_map_freq: 1
+block_depth: 2
+max_range: -1
+prefix: merged
+
+unc_thres: 0.9
+# unc_thres: 0.5
+
+ell: 0.3
+# ell: 0.2
+
+########## Remapping
+# Original
+# mapping_mode: 102
+# num_class: 20
+# Remapping
+mapping_mode: 9
+num_class: 9
+
+########## Individual
+scan_start: 1
+# 00004 full
+scan_num: 30
+dir: /workspace/convertedRellis/rellisv3_edl_train-4/05_pVec_pcd/00004/                           # SERVER, rellisv3_edlt17_train-4, BKIFormatter30

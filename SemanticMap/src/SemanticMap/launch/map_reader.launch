@@ -1,0 +1,14 @@
+<launch>
+    <arg name="pkg" default="$(find evsemmap)" />
+
+    <node type="rviz" name="rviz" pkg="rviz" args="-d $(find evsemmap)/rviz/ex_map_reader.rviz" />
+
+    <node pkg="evsemmap" type="map_reader" name="map_reader" output="screen">       
+        <!-- Rellis -->
+        <param name="mapping_mode" value="9" /> 
+        <param name="resolution" value="0.1" /> 
+
+        <!-- Dempster Variance Visualizations -->
+        <param name="map_path1" value="/workspace/deployTest/rellisv3_00004.map" />
+    </node>
+</launch>

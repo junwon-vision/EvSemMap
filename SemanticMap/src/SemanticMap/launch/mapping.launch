@@ -1,0 +1,16 @@
+<launch>
+    <arg name="pkg" default="$(find evsemmap)" />
+    <arg name="data_config" value="$(arg pkg)/config/datasets/" />
+    <arg name="method_config" value="$(arg pkg)/config/methods/" />
+    <arg name="result_name" />
+    <!-- Command Line Parameters -->
+    <!-- Required Parameters: dataset, method, result_name -->
+    
+    <node pkg="evsemmap" type="mapping" name="mapping" output="screen">
+        <!-- Load dataset configuration from file -->
+        <rosparam file="$(arg data_config)/$(arg dataset).yaml" command="load" />
+        <rosparam file="$(arg method_config)/$(arg method).yaml" command="load" />
+
+        <param name="result_name" value="$(arg result_name)" />
+    </node>
+</launch>

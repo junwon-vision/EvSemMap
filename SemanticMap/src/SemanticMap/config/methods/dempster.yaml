@@ -1,0 +1,8 @@
+mapping_strategy: dempster
+mapping_media: prob
+uncertainty_strategy: adaptive
+# uncertainty_strategy: none
+# ds_multiplier: 10 # ICRAW
+ds_multiplier: 5 # KIMST
+prior: 0.0
+# unc_thres: dataset dependent
