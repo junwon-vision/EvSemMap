@@ -1,4 +1,23 @@
-# Uncertainty-aware Evidential Bayesian Semantic Mapping (EBS)
+<div align="center">
+    <h1>Uncertainty-aware Evidential Bayesian Semantic Mapping (EBS)</h1>
+    <img src="https://img.shields.io/badge/-C++-blue?logo=cplusplus" /></a>
+    <img src="https://img.shields.io/badge/Python-3670A0?logo=python&logoColor=ffdd54" /></a>
+    <a href="https://github.com/url-kaist/patchwork-plusplus/tree/master/ros"><img src="https://img.shields.io/badge/ROS-Noetic-blue" /></a>
+    <a href="https://github.com/url-kaist/patchwork-plusplus/tree/master"><img src="https://img.shields.io/badge/Linux-FCC624?logo=linux&logoColor=black" /></a>
+    <br />
+    <br />
+    <a href="https://youtu.be/5cYY5c25GqE">Video (5min)</a>
+    <span>&nbsp;&nbsp;•&nbsp;&nbsp;</span>
+    <a href="https://youtu.be/91ct6I_8iXg">Video (1min)</a>
+    <span>&nbsp;&nbsp;•&nbsp;&nbsp;</span>
+    <a href="https://arxiv.org/abs/2403.14138">Paper</a>
+    <span>&nbsp;&nbsp;•&nbsp;&nbsp;</span>
+    <a href="https://kjyoung.github.io/Homepage/#/Projects/Evidential-Semantic-Mapping">Homepage</a>
+    <br />
+</div>
+
+---
+
 This is a repository for [Evidential Semantic Mapping in Off-road Environments with Uncertainty-aware Bayesian Kernel Inference](https://kjyoung.github.io/Homepage/#/Projects/Evidential-Semantic-Mapping) which is accepted for IROS 2024.   
 
 <p align="center">
