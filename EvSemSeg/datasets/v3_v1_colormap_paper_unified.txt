@@ -1,0 +1,9 @@
+0	void	0	0	0
+1	sky	196	255	255
+2	water	0	0	255
+3	object	204	153	255
+4	paved	255	255	0
+5	unpaved	255	153	204
+6	brown	153	76	0
+7	green	111	255	74
+8	vegetation	0	102	0
